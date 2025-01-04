@@ -315,6 +315,12 @@ section {
   color: #173b6c;
 }
 
+.sec-img{
+  height: 350px;
+ width: 330px;
+ border-radius: 8px;
+}
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -571,6 +577,13 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+}
+
+.img-portfolio{
+  width: 300px;
+  height: 200px;
+  /* object-fit:cover; */
+  background-size: cover;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
